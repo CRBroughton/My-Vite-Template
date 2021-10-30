@@ -1,0 +1,24 @@
+{
+    "gitflow4code.features": [
+        {
+            "name": "feature/unplugin-vue-components",
+            "base": "develop"
+        },
+        {
+            "name": "feature/unplugin-auto-import",
+            "base": "develop"
+        },
+        {
+            "name": "feature/mocha-vite-puppeteer",
+            "base": "develop"
+        },
+        {
+            "name": "feature/jest",
+            "base": "develop"
+        },
+        {
+            "name": "feature/cypress",
+            "base": "develop"
+        }
+    ]
+}
