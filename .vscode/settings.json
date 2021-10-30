@@ -15,6 +15,10 @@
         {
             "name": "feature/jest",
             "base": "develop"
+        },
+        {
+            "name": "feature/cypress",
+            "base": "develop"
         }
     ]
 }
