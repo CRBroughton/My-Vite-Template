@@ -8,7 +8,7 @@ This is my Vite template, which includes:
 - Pinia
 - Jest
 - Cypress
-- unplugin-vue-Components
+- unplugin-vue-components
 - WindiCSS
 - @/ Alias
 
