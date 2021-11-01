@@ -2,10 +2,7 @@
 </script>
 
 <template>
-  <div class="flex flex-col items-center">
-    <img alt="Vue logo" src="./assets/logo.png" class="vue-logo w-32" />
-    <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
-  </div>
+    <router-view />
 </template>
 
 <style>
