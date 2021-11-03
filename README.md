@@ -10,7 +10,7 @@ This is my Vite template, which includes:
 - Jest
 - Cypress
 - unplugin-vue-components
-- WindiCSS\
+- WindiCSS
 - Vue Router (using vite-plugin-pages)
 - @/ Alias
 
