@@ -10,10 +10,10 @@ export const useStore = defineStore('main', {
     }
   },
   // optional actions
-    actions: {
-      increment() {
-        // `this` is the store instance
-        this.count++
-      },
+  actions: {
+    increment() {
+      // `this` is the store instance
+      this.count++
     },
+  },
 })
