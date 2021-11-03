@@ -20,5 +20,6 @@
       "@/*": ["./src/*"]
     }
   },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/store/*.ts"],
   "exclude": ["dist", "node_modules"]
 }

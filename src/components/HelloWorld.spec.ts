@@ -13,6 +13,6 @@ describe('HelloWorld', () => {
       },
     })
 
-    expect(wrapper.find('h1').text()).equal(msg)
+    expect(wrapper.find('h1').text()).toEqual(msg)
   })
 })
