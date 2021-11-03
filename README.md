@@ -6,6 +6,7 @@ This is my Vite template, which includes:
 - Vue 3.2
 - Typescript
 - Pinia
+- ESLint (antfu/eslint-config)
 - Jest
 - Cypress
 - unplugin-vue-components
