@@ -14,9 +14,10 @@ This is my Vite template, which includes:
 - Vue Router (using vite-plugin-pages)
 - @/ Alias
 
-## Recommended IDE Setup
+## Recommended Extensions
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+I've included all the extensions I use on a daily basis. Feel free to disable
+or not install any that you feel you wouldn't use.
 
 ## Type Support For `.vue` Imports in TS
 
