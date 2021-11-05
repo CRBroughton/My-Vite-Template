@@ -1,3 +1,7 @@
 {
-  "recommendations": ["johnsoncodehk.volar", "dbaeumer.vscode-eslint", "coenraads.bracket-pair-colorizer-2", "voorjaar.windicss-intellisense"]
+  "recommendations": [
+    "johnsoncodehk.volar", 
+    "dbaeumer.vscode-eslint", 
+    "coenraads.bracket-pair-colorizer-2", 
+    "voorjaar.windicss-intellisense"]
 }
