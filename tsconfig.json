@@ -9,6 +9,11 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    "incremental": false,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
     "lib": ["esnext", "dom"],
     "types": ["vite/client", "@types/jest", "cypress", "vite-plugin-pages/client"],
     "paths": {
