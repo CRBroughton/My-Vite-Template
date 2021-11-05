@@ -4,5 +4,6 @@
     "dbaeumer.vscode-eslint", 
     "coenraads.bracket-pair-colorizer-2", 
     "voorjaar.windicss-intellisense",
-    "antfu.vite"]
+    "antfu.vite",
+    "antfu.browse-lite"]
 }
