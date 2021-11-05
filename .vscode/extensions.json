@@ -4,6 +4,15 @@
     "dbaeumer.vscode-eslint", 
     "coenraads.bracket-pair-colorizer-2", 
     "voorjaar.windicss-intellisense",
+    "dbaeumer.vscode-eslint",
+    "mhutchie.git-graph",
+    "greatminds.gitflow4code",
+    "eamodio.gitlens",
+    "ritwickdey.liveserver",
+    "abusaidm.html-snippets",
+    "sidthesloth.html5-boilerplate",
+    "tabnine.tabnine-vscode",
+    "dracula-theme.theme-dracula",
     "antfu.vite",
     "antfu.browse-lite"]
 }
