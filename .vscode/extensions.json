@@ -3,5 +3,6 @@
     "johnsoncodehk.volar", 
     "dbaeumer.vscode-eslint", 
     "coenraads.bracket-pair-colorizer-2", 
-    "voorjaar.windicss-intellisense"]
+    "voorjaar.windicss-intellisense",
+    "antfu.vite"]
 }
