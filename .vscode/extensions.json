@@ -14,5 +14,7 @@
     "tabnine.tabnine-vscode",
     "dracula-theme.theme-dracula",
     "antfu.vite",
-    "antfu.browse-lite"]
+    "antfu.browse-lite",
+    "jianglinghao.vscode-npm-scripts",
+    "dennisvhest.npm-browser"]
 }
