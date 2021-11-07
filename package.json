@@ -11,7 +11,8 @@
     "test:unit": "npx cypress run-ct",
     "test:unit:web": "npx cypress open-ct",
     "test:e2e": "cypress run",
-    "test:e2e:web": "cypress open"
+    "test:e2e:web": "cypress open",
+    "viewCoverage": "http-server coverage/lcov-report -p 8000"
   },
   "dependencies": {
     "pinia": "^2.0.2",
