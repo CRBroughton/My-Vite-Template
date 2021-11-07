@@ -8,7 +8,9 @@ const { count } = storeToRefs(store)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1 data-cy="heading">
+    {{ msg }}
+  </h1>
 
   <p>
     Recommended IDE setup:

@@ -4,6 +4,9 @@ import { mount } from '@cypress/vue'
 import HelloWorld from '@/components/HelloWorld.vue'
 
 describe('HelloWorld Component', () => {
+  beforeEach(() => {
+    setActivePinia(createPinia())
+  })
   it('renders a message', () => {
     const msg = 'test message'
     mount(HelloWorld, {
@@ -11,6 +14,6 @@ describe('HelloWorld Component', () => {
         msg,
       },
     })
-    cy.get('h1').contains(msg)
+    cy.get('[data-cy=heading]').contains(msg)
   })
 })
