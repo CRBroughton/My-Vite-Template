@@ -15,11 +15,11 @@
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
     "lib": ["esnext", "dom"],
-    "types": ["vite/client", "@types/jest", "cypress", "vite-plugin-pages/client"],
+    "types": ["vite/client", "cypress", "vite-plugin-pages/client"],
     "paths": {
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.vue", "*.d.ts"],
+  "include": ["src/**/*.ts", "tests/**/*.ts", "src/**/*.vue", "*.d.ts"],
   "exclude": ["dist", "node_modules"]
 }

@@ -7,18 +7,11 @@ This is my Vite template, which includes:
 - Typescript
 - Pinia
 - ESLint (antfu/eslint-config)
-- Jest
 - Cypress
 - unplugin-vue-components
 - WindiCSS
 - Vue Router (using vite-plugin-pages)
 - @/ Alias
-
-## Alternative Version
-
-Checkout the release/auto-import branch for auto importing modules,
-however this version lacks Jest.
-
 ## Recommended Extensions
 
 I've included all the extensions I use on a daily basis. Feel free to disable
