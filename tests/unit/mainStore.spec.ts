@@ -1,7 +1,6 @@
 /// <reference types="cypress" />
 
 import { mount } from '@cypress/vue'
-import { setActivePinia, createPinia } from 'pinia'
 import { useStore } from '@/store/main'
 import HelloWorld from '@/components/HelloWorld.vue'
 
