@@ -3,6 +3,8 @@
     "video": false,
     "integrationFolder": "tests/e2e/",
     "testFiles": "**/*.spec.ts",
+    "viewportWidth": 1000,
+    "viewportHeight": 800,
     "component": {
       "testFiles": "**/*.spec.ts",
       "componentFolder": "tests/unit/"

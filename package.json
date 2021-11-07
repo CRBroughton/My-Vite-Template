@@ -13,7 +13,7 @@
     "test:e2e": "cypress run",
     "test:e2e:web": "cypress open",
     "test:report": "npx nyc report",
-    "test:webReport": "http-server coverage/lcov-report -p 8000"
+    "test:report:web": "http-server coverage/lcov-report -p 8000"
   },
   "dependencies": {
     "pinia": "^2.0.2",
