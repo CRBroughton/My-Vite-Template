@@ -7,7 +7,7 @@ This is my Vite template, which includes:
 - Typescript
 - Pinia
 - ESLint (antfu/eslint-config)
-- Cypress (Unit & e2e testing)
+- Cypress (Unit, e2e testing and code coverage reports)
 - unplugin-vue-components
 - unplugin-auto-import
 - WindiCSS
