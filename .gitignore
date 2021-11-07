@@ -4,3 +4,5 @@ dist
 dist-ssr
 *.local
 coverage
+.nyc_output
+cypress/screenshots
