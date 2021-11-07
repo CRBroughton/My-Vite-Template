@@ -4,6 +4,7 @@ import WindiCSS from 'vite-plugin-windicss'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Pages from 'vite-plugin-pages'
+import istanbul from 'vite-plugin-istanbul'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -24,7 +25,13 @@ export default defineConfig({
         'vue-router',
         'pinia',
       ],
-    })],
+    }),
+    istanbul({
+      include: 'src/*',
+      exclude: ['node_modules', 'test/'],
+      extension: ['.js', '.ts', '.vue'],
+    }),
+  ],
 
   resolve: {
     alias: [
