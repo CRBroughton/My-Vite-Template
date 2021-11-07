@@ -9,5 +9,6 @@
       "source.fixAll": true,
       "eslint.format.enable": true,
       "editor.formatOnSave": true,
-    }
+    },
+    "npm-scripts.showStartNotification": false
 }
