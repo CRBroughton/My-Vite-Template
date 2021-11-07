@@ -19,6 +19,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.10.0",
+    "@cypress/vue": "^3.0.3",
+    "@cypress/vite-dev-server": "^2.2.0",
     "@pinia/testing": "^0.0.5",
     "@types/jest": "^27.0.2",
     "@vitejs/plugin-vue": "^1.9.3",
