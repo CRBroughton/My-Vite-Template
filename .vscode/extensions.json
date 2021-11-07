@@ -16,5 +16,6 @@
     "antfu.vite",
     "antfu.browse-lite",
     "jianglinghao.vscode-npm-scripts",
-    "dennisvhest.npm-browser"]
+    "dennisvhest.npm-browser",
+    "vscode-icons-team.vscode-icons"]
 }
