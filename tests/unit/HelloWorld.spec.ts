@@ -2,6 +2,7 @@
 
 import { mount } from '@cypress/vue'
 import HelloWorld from '@/components/HelloWorld.vue'
+import 'virtual:windi.css'
 
 describe('HelloWorld Component', () => {
   beforeEach(() => {
