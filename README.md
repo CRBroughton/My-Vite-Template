@@ -7,8 +7,9 @@ This is my Vite template, which includes:
 - Typescript
 - Pinia
 - ESLint (antfu/eslint-config)
-- Cypress
+- Cypress (Unit & e2e testing)
 - unplugin-vue-components
+- unplugin-auto-import
 - WindiCSS
 - Vue Router (using vite-plugin-pages)
 - @/ Alias
