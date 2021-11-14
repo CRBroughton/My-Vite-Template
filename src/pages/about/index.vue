@@ -1,6 +1,8 @@
 <template>
   <div class="flex-div">
-    <p>Welcome to the about page</p>
+    <p text="white">
+      Welcome to the about page
+    </p>
     <img alt="Vue logo" src="@/assets/logo.png" class="vue-logo w-32" />
   </div>
 </template>
