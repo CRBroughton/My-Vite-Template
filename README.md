@@ -11,6 +11,7 @@ This is my Vite template, which includes:
 - unplugin-vue-components
 - unplugin-auto-import
 - WindiCSS
+- SASS
 - Vue Router (using vite-plugin-pages)
 - @/ Alias
 ## Recommended Extensions
