@@ -8,20 +8,13 @@ const { count } = storeToRefs(store)
 </script>
 
 <template>
-  <h1 data-cy="heading">
+  <h1 data-cy="heading" text="3xl" m="y-5">
     {{ msg }}
   </h1>
 
-  <p>
-    Recommended IDE setup:
-    <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
-    +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
-  </p>
-
   <p>See <code>README.md</code> for more information.</p>
 
-  <p>
+  <p m="b-5">
     <a href="https://vitejs.dev/guide/features.html" target="_blank">
       Vite Docs
     </a>
@@ -32,7 +25,7 @@ const { count } = storeToRefs(store)
   <button type="button" @click="store.increment">
     count is: {{ count }}
   </button>
-  <p>
+  <p m="b-5">
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>

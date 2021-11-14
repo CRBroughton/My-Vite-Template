@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1>Welcome to your dynamic page {{ props.name }}</h1>
+    <h1 text="white">
+      Welcome to your dynamic page {{ props.name }}
+    </h1>
   </div>
 </template>
 
