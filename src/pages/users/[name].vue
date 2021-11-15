@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const props = defineProps<{ name: string }>()
+</script>
+
 <template>
   <div>
     <h1 text="white">
@@ -5,7 +9,3 @@
     </h1>
   </div>
 </template>
-
-<script setup lang="ts">
-const props = defineProps<{ name: string }>()
-</script>

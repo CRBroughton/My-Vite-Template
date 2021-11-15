@@ -1,3 +1,13 @@
+
+<script setup lang="ts">
+const router = useRouter()
+const name = ref('')
+
+const go = () => {
+  if (name.value) router.push(`/users/${encodeURIComponent(name.value)}`)
+}
+</script>
+
 <template>
   <div
     class="flex-div"
@@ -11,7 +21,8 @@
     </router-link>
     <input
       v-model="name"
-      class="text-center w-70"
+      w="70"
+      text="center"
       bg="gray-800"
       type="text"
       placeholder="Enter text here to go to a dynamic page"
@@ -19,15 +30,6 @@
     />
   </div>
 </template>
-
-<script setup lang="ts">
-const router = useRouter()
-const name = ref('')
-
-const go = () => {
-  if (name.value) router.push(`/users/${encodeURIComponent(name.value)}`)
-}
-</script>
 
 <style lang="scss">
 .flex-div {
