@@ -39,7 +39,7 @@
     "vite-plugin-istanbul": "^2.2.2",
     "vite-plugin-pages": "^0.18.2",
     "vite-plugin-windicss": "^1.5.1",
-    "vue-tsc": "^0.29.4",
+    "vue-tsc": "^0.29.6",
     "windicss": "^3.2.1"
   }
 }
