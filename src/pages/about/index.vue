@@ -3,7 +3,7 @@
     <p text="white">
       Welcome to the about page
     </p>
-    <img alt="Vue logo" src="@/assets/logo.png" class="vue-logo w-32" />
+    <img alt="Vue logo" src="@/assets/logo.png" class="vue-logo w-32">
   </div>
 </template>
 
