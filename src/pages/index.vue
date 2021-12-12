@@ -14,7 +14,7 @@ const go = () => {
     text="white"
     font="bold"
   >
-    <img alt="Vue logo" src="@/assets/logo.png" class="vue-logo w-32" />
+    <img alt="Vue logo" src="@/assets/logo.png" class="vue-logo w-32">
     <HelloWorld msg="My Vite Template" />
     <router-link class="font-bold" to="/about">
       Go to the about page
@@ -27,7 +27,7 @@ const go = () => {
       type="text"
       placeholder="Enter text here to go to a dynamic page"
       @keydown.enter="go"
-    />
+    >
   </div>
 </template>
 
