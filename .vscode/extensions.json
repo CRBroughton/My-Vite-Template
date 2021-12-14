@@ -2,7 +2,6 @@
   "recommendations": [
     "johnsoncodehk.volar", 
     "dbaeumer.vscode-eslint", 
-    "coenraads.bracket-pair-colorizer-2", 
     "voorjaar.windicss-intellisense",
     "dbaeumer.vscode-eslint",
     "mhutchie.git-graph",
