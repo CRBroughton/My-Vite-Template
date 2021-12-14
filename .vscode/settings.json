@@ -10,5 +10,7 @@
       "eslint.format.enable": true,
       "editor.formatOnSave": true,
     },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
     "npm-scripts.showStartNotification": false
 }
