@@ -2,7 +2,6 @@
   "recommendations": [
     "johnsoncodehk.volar", 
     "dbaeumer.vscode-eslint", 
-    "coenraads.bracket-pair-colorizer-2", 
     "voorjaar.windicss-intellisense",
     "dbaeumer.vscode-eslint",
     "mhutchie.git-graph",
@@ -16,7 +15,6 @@
     "antfu.vite",
     "antfu.browse-lite",
     "jianglinghao.vscode-npm-scripts",
-    "dennisvhest.npm-browser",
     "vscode-icons-team.vscode-icons",
     "formulahendry.auto-rename-tag",
     "adpyke.codesnap",
