@@ -14,6 +14,29 @@ This is my Vite template, which includes:
 - SASS
 - Vue Router (using vite-plugin-pages)
 - @/ Alias
+
+## Installation
+
+It's recommended to use pnpm to install this template:
+
+```
+pnpm i
+```
+
+or by using npm:
+
+```
+npm i --legacy-peer-deps
+```
+
+## Checking For Updates
+
+This template is regularly updated, however if you need to manually update a package, use the `pnpm:check` script, or run the below command:
+
+```
+NPM_CHECK_INSTALLER=pnpm npm-check -u
+```
+
 ## Recommended Extensions
 
 I've included all the extensions I use on a daily basis. Feel free to disable
