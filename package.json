@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "npm:check": "npx npm-check -u",
+    "pnpm:check": "NPM_CHECK_INSTALLER=pnpm npm-check -u",
     "type:check": "vue-tsc --noEmit ",
     "lint:check": "eslint \"**/*.{vue,ts,js}\"",
     "lint:fix": "eslint \"**/*.{vue,ts,js}\" --fix",
