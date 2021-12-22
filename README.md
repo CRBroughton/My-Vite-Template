@@ -4,6 +4,7 @@ This is my Vite template, which includes:
 
 - Vite
 - Vue 3.2
+- VueUse
 - Typescript
 - Pinia
 - ESLint (antfu/eslint-config)
