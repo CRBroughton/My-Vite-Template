@@ -13,5 +13,6 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
     "editor.wordWrap": "on",
-    "npm-scripts.showStartNotification": false
+    "npm-scripts.showStartNotification": false,
+    "css.lint.unknownAtRules": "ignore"
 }
