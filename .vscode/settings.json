@@ -14,5 +14,6 @@
     "editor.guides.bracketPairs": "active",
     "editor.wordWrap": "on",
     "npm-scripts.showStartNotification": false,
-    "css.lint.unknownAtRules": "ignore"
+    "css.lint.unknownAtRules": "ignore",
+    "scss.lint.unknownAtRules": "ignore"
 }
