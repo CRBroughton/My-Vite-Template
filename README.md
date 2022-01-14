@@ -30,6 +30,14 @@ or by using npm:
 npm i --legacy-peer-deps
 ```
 
+To use the dockerisation of this template first install your dependencies as normal, then run:
+
+```
+docker-compose up -d
+```
+
+which will expose the docker container on port 4000. You'll no longer have to run `npm run dev`
+
 ## Checking For Updates
 
 This template is regularly updated, however if you need to manually update a package, use the `pnpm:check` script, or run the below command:
