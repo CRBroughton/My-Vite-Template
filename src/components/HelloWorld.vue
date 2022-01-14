@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useStore } from '@/store'
 
-type Props = {
+interface Props {
   msg: string
 }
 
