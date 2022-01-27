@@ -24,11 +24,13 @@ It's recommended to use pnpm to install this template:
 pnpm i
 ```
 
-or by using npm:
+To use the dockerisation of this template first install your dependencies as normal, then run:
 
 ```
-npm i --legacy-peer-deps
+docker-compose up -d
 ```
+
+which will expose the docker container on port 4000. You'll no longer have to run `npm run dev`
 
 ## Checking For Updates
 
