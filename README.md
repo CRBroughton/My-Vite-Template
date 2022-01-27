@@ -24,12 +24,6 @@ It's recommended to use pnpm to install this template:
 pnpm i
 ```
 
-or by using npm:
-
-```
-npm i --legacy-peer-deps
-```
-
 To use the dockerisation of this template first install your dependencies as normal, then run:
 
 ```
