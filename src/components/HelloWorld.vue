@@ -1,9 +1,30 @@
 <script setup lang="ts">
 import { useStore } from '@/store'
 
+interface ResponseData {
+  title: string
+  subheading: string
+  viteHeading: string
+  vueHeading: string
+}
+
 interface Props {
   msg: string
 }
+
+const data = reactive<ResponseData>({
+  title: '',
+  subheading: '',
+  viteHeading: '',
+  vueHeading: '',
+})
+
+onMounted(async() => {
+  let response = await fetch('/')
+  response = await response.json()
+
+  Object.assign(data, response)
+})
 
 // For default values for your props, use :
 // withDefaults(defineProps<Props>(), { msg: 'myDefaultValue' })
@@ -16,17 +37,17 @@ const { count } = storeToRefs(store)
 
 <template>
   <h1 data-cy="heading" text="3xl" m="y-5">
-    {{ msg }}
+    {{ data.title }}
   </h1>
 
-  <p>See <code>README.md</code> for more information.</p>
+  <p>{{ data.subheading }}</p>
 
   <p m="b-5">
     <a href="https://vitejs.dev/guide/features.html" target="_blank">
-      Vite Docs
+      {{ data.viteHeading }}
     </a>
     |
-    <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
+    <a href="https://v3.vuejs.org/" target="_blank">{{ data.vueHeading }}</a>
   </p>
 
   <button type="button" @click="store.increment">
