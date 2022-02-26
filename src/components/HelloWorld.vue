@@ -2,7 +2,7 @@
 import { useStore } from '@/store'
 
 interface ResponseData {
-  title: string
+  title: string | undefined
   subheading: string
   viteHeading: string
   vueHeading: string
@@ -13,7 +13,7 @@ interface Props {
 }
 
 const data = reactive<ResponseData>({
-  title: '',
+  title: undefined ?? 'Fallback title',
   subheading: '',
   viteHeading: '',
   vueHeading: '',
