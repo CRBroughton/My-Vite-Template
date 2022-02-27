@@ -15,7 +15,7 @@ const go = () => {
     font="bold"
   >
     <img alt="Vue logo" src="@/assets/logo.png" class="vue-logo w-32">
-    <HelloWorld msg="My Vite Template" />
+    <HelloWorld />
     <router-link class="font-bold" to="/about">
       Go to the about page
     </router-link>

@@ -8,10 +8,6 @@ interface ResponseData {
   vueHeading: string
 }
 
-interface Props {
-  msg: string
-}
-
 const data = reactive<ResponseData>({
   title: undefined ?? 'Fallback title',
   subheading: '',
@@ -25,11 +21,6 @@ onMounted(async() => {
 
   Object.assign(data, response)
 })
-
-// For default values for your props, use :
-// withDefaults(defineProps<Props>(), { msg: 'myDefaultValue' })
-
-defineProps<Props>()
 
 const store = useStore()
 const { count } = storeToRefs(store)
