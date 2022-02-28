@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <router-view bg="gray-800" class="h-screen w-screen" />
+  <router-view class="h-screen w-screen bg-gray-800" />
 </template>
 
 <style>

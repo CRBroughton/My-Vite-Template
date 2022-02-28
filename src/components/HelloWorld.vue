@@ -15,7 +15,7 @@ const data = reactive<ResponseData>({
   vueHeading: '',
 })
 
-onMounted(async() => {
+onMounted(async () => {
   let response = await fetch('/')
   response = await response.json()
 
@@ -27,13 +27,13 @@ const { count } = storeToRefs(store)
 </script>
 
 <template>
-  <h1 data-cy="heading" text="3xl" m="y-5">
+  <h1 data-cy="heading" class="text-3xl my-5">
     {{ data.title }}
   </h1>
 
   <p>{{ data.subheading }}</p>
 
-  <p m="b-5">
+  <p class="mb-5">
     <a href="https://vitejs.dev/guide/features.html" target="_blank">
       {{ data.viteHeading }}
     </a>
@@ -44,7 +44,7 @@ const { count } = storeToRefs(store)
   <button type="button" @click="store.increment">
     count is: {{ count }}
   </button>
-  <p m="b-5">
+  <p class="mb-5">
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
