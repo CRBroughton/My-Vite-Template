@@ -1,17 +1,18 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vitest/config'
 import Vue from '@vitejs/plugin-vue'
-import WindiCSS from 'vite-plugin-windicss'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Pages from 'vite-plugin-pages'
-import istanbul from 'vite-plugin-istanbul'
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  test: {
+    globals: true,
+    environment: 'happy-dom',
+  },
   server: {
     port: 4000,
   },
-  plugins: [Vue(), WindiCSS(), Pages(), Components({ dts: true }),
+  plugins: [Vue(), Pages(), Components({ dts: true }),
     AutoImport({
       // targets to transform
       include: [
@@ -24,12 +25,9 @@ export default defineConfig({
         'vue',
         'vue-router',
         'pinia',
+        '@vueuse/core',
+        'vitest',
       ],
-    }),
-    istanbul({
-      include: ['src/store/*', 'src/pages/*', 'src/components/*'],
-      exclude: ['node_modules', 'tests/'],
-      extension: ['.js', '.ts', '.vue'],
     }),
   ],
 

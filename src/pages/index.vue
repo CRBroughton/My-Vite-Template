@@ -1,18 +1,16 @@
-
 <script setup lang="ts">
 const router = useRouter()
 const name = ref('')
 
 const go = () => {
-  if (name.value) router.push(`/users/${encodeURIComponent(name.value)}`)
+  if (name.value)
+    router.push(`/users/${encodeURIComponent(name.value)}`)
 }
 </script>
 
 <template>
   <div
-    class="flex-div"
-    text="white"
-    font="bold"
+    class="flex-div text-white font-bold"
   >
     <img alt="Vue logo" src="@/assets/logo.png" class="vue-logo w-32">
     <HelloWorld />
@@ -21,9 +19,7 @@ const go = () => {
     </router-link>
     <input
       v-model="name"
-      w="70"
-      text="center"
-      bg="gray-800"
+      class="w-72 text-center bg-gray-800"
       type="text"
       placeholder="Enter text here to go to a dynamic page"
       @keydown.enter="go"
@@ -33,6 +29,6 @@ const go = () => {
 
 <style lang="scss">
 .flex-div {
-  @apply flex flex-col items-center pt-15;
+  @apply flex flex-col items-center pt-16;
 }
 </style>
