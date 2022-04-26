@@ -4,6 +4,7 @@ This is my Vite template, which includes:
 
 - Vite
 - Vue 3.2
+- Vitest
 - VueUse
 - Typescript
 - Pinia
