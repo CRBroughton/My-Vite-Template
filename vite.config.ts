@@ -4,9 +4,7 @@ import WindiCSS from 'vite-plugin-windicss'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Pages from 'vite-plugin-pages'
-import istanbul from 'vite-plugin-istanbul'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   server: {
     port: 4000,
@@ -25,11 +23,6 @@ export default defineConfig({
         'vue-router',
         'pinia',
       ],
-    }),
-    istanbul({
-      include: ['src/store/*', 'src/pages/*', 'src/components/*'],
-      exclude: ['node_modules', 'tests/'],
-      extension: ['.js', '.ts', '.vue'],
     }),
   ],
 
