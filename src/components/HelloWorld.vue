@@ -27,7 +27,7 @@ const { count } = storeToRefs(store)
 </script>
 
 <template>
-  <h1 data-cy="heading" class="text-3xl my-5">
+  <h1 class="text-3xl my-5">
     {{ data.title }}
   </h1>
 
