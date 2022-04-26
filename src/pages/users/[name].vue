@@ -9,7 +9,7 @@ const props = defineProps<Props>()
 
 <template>
   <div>
-    <h1 text="white">
+    <h1 class="text-white">
       Welcome to your dynamic page {{ props.name }}
     </h1>
   </div>

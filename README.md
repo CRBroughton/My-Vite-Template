@@ -11,7 +11,7 @@ This is my Vite template, which includes:
 - ESLint (antfu/eslint-config)
 - unplugin-vue-components
 - unplugin-auto-import
-- WindiCSS
+- TailwindCSS
 - SASS
 - Vue Router (using vite-plugin-pages)
 - @/ Alias

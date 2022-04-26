@@ -1,8 +1,7 @@
 {
   "recommendations": [
     "johnsoncodehk.volar", 
-    "dbaeumer.vscode-eslint", 
-    "voorjaar.windicss-intellisense",
+    "bradlc.vscode-tailwindcss", 
     "dbaeumer.vscode-eslint",
     "usernamehw.errorlens",
     "mhutchie.git-graph",
