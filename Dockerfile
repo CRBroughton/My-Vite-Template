@@ -1,4 +1,4 @@
-FROM node:15.12.0
+FROM node:18.12.1
 
 LABEL author="Craig Broughton"
 LABEL author.email="CRBroughton@posteo.uk"
