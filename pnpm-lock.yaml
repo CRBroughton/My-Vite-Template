@@ -2,7 +2,6 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config': 0.41.0
-  '@pinia/testing': 0.1.3
   '@types/jest': ^29.5.4
   '@types/node': ^20.5.6
   '@vitejs/plugin-vue': 4.3.3
@@ -17,7 +16,6 @@ specifiers:
   http-server: 14.1.1
   msw: 1.2.4
   npm-check: 6.0.1
-  pinia: 2.1.6
   postcss: 8.4.28
   sass: 1.66.1
   tailwindcss: 3.3.3
@@ -36,13 +34,11 @@ specifiers:
 
 dependencies:
   '@vueuse/core': 10.3.0_vue@3.3.4
-  pinia: 2.1.6_typescript@5.1.6+vue@3.3.4
   vue: 3.3.4
   vue-router: 4.2.4_vue@3.3.4
 
 devDependencies:
   '@antfu/eslint-config': 0.41.0_qj3u6ezxe2airdzjq3nyoxe24m
-  '@pinia/testing': 0.1.3_pinia@2.1.6+vue@3.3.4
   '@types/jest': 29.5.4
   '@types/node': 20.5.6
   '@vitejs/plugin-vue': 4.3.3_vite@4.4.9+vue@3.3.4
@@ -1757,18 +1753,6 @@ packages:
     resolution: {integrity: sha512-Aq58f5HiWdyDlFffbbSjAlv596h/cOnt2DO1w3DOC7OJ5EHs0hd/nycJfiu9RJbT6Yk6F1knnRRXNSpxoIVZ9Q==}
     dev: true
 
-  /@pinia/testing/0.1.3_pinia@2.1.6+vue@3.3.4:
-    resolution: {integrity: sha512-D2Ds2s69kKFaRf2KCcP1NhNZEg5+we59aRyQalwRm7ygWfLM25nDH66267U3hNvRUOTx8ofL24GzodZkOmB5xw==}
-    peerDependencies:
-      pinia: '>=2.1.5'
-    dependencies:
-      pinia: 2.1.6_typescript@5.1.6+vue@3.3.4
-      vue-demi: 0.14.5_vue@3.3.4
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-      - vue
-    dev: true
-
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
@@ -2344,6 +2328,7 @@ packages:
 
   /@vue/devtools-api/6.5.0:
     resolution: {integrity: sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==}
+    dev: false
 
   /@vue/language-core/1.8.8_typescript@5.1.6:
     resolution: {integrity: sha512-i4KMTuPazf48yMdYoebTkgSOJdFraE4pQf0B+FTOFkbB+6hAfjrSou/UmYWRsWyZV6r4Rc6DDZdI39CJwL0rWw==}
@@ -5921,23 +5906,6 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /pinia/2.1.6_typescript@5.1.6+vue@3.3.4:
-    resolution: {integrity: sha512-bIU6QuE5qZviMmct5XwCesXelb5VavdOWKWaB17ggk++NUwQWWbP5YnsONTk3b752QkW9sACiR81rorpeOMSvQ==}
-    peerDependencies:
-      '@vue/composition-api': ^1.4.0
-      typescript: '>=4.4.4'
-      vue: ^2.6.14 || ^3.3.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
-      typescript:
-        optional: true
-    dependencies:
-      '@vue/devtools-api': 6.5.0
-      typescript: 5.1.6
-      vue: 3.3.4
-      vue-demi: 0.14.5_vue@3.3.4
-
   /pinkie-promise/2.0.1:
     resolution: {integrity: sha512-0Gni6D4UcLTbv9c57DfxDGdr41XfgUjqWZu492f0cIGr16zDU06BWP/RAEvOuo7CQ0CNjHaLlM59YJJFm3NWlw==}
     engines: {node: '>=0.10.0'}
@@ -7082,6 +7050,7 @@ packages:
     resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
     engines: {node: '>=14.17'}
     hasBin: true
+    dev: true
 
   /ufo/1.3.0:
     resolution: {integrity: sha512-bRn3CsoojyNStCZe0BG0Mt4Nr/4KF+rhFlnNXybgqt5pXHNFRlqinSoQaTrGyzE4X8aHplSb+TorH+COin9Yxw==}
