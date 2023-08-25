@@ -24,7 +24,6 @@ export default defineConfig({
         // presets
         'vue',
         'vue-router',
-        'pinia',
         '@vueuse/core',
         'vitest',
       ],

@@ -7,7 +7,6 @@ This is my Vite template, which includes:
 - Vitest
 - VueUse
 - Typescript
-- Pinia
 - MSW
 - ESLint (antfu/eslint-config)
 - unplugin-vue-components
