@@ -1,20 +1,34 @@
-// useStore could be anything like useUser, useCart
-// the first argument is a unique id of the store across your application
-export const useStore = defineStore('main', {
-  state: () => {
-    return {
-      // all these properties will have their type inferred automatically
-      count: 0,
-    }
-  },
-  // optional actions
-  actions: {
-    increment() {
-      // `this` is the store instance
-      this.count++
-    },
-    decrement() {
-      this.count--
-    },
-  },
-})
+// // useStore could be anything like useUser, useCart
+
+// import type { InjectionKey } from 'vue'
+
+export function useStore() {
+  const count = ref(0)
+
+  const increment = () => {
+    count.value++
+  }
+
+  const decrement = () => {
+    count.value--
+  }
+
+  return {
+    count,
+    increment,
+    decrement,
+  }
+}
+// Used for provide/inject
+
+// const storeKey: InjectionKey<ReturnType<typeof useStore>> = Symbol('store')
+
+// export function ProvideStore() {
+//   const store = useStore()
+//   provide(storeKey, store)
+//   return store
+// }
+
+// export function InjectStore() {
+//   return inject(storeKey)!
+// }

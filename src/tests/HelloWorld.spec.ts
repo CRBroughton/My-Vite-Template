@@ -1,11 +1,11 @@
 import { mount } from '@vue/test-utils'
-import name from '@/pages/users/[name].vue'
+import name from '../pages/users/[name].vue'
 
 interface Props {
   name: string
 }
 
-const bootstrap = (props: Props) => {
+function bootstrap(props: Props) {
   return mount(name, { props })
 }
 

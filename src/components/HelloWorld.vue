@@ -1,5 +1,8 @@
 <script setup lang="ts">
+import { onMounted, reactive } from 'vue'
 import { useStore } from '@/store'
+
+const { count, increment } = useStore()
 
 interface ResponseData {
   title: string | undefined
@@ -21,9 +24,6 @@ onMounted(async () => {
 
   Object.assign(data, response)
 })
-
-const store = useStore()
-const { count } = storeToRefs(store)
 </script>
 
 <template>
@@ -41,7 +41,7 @@ const { count } = storeToRefs(store)
     <a href="https://v3.vuejs.org/" target="_blank">{{ data.vueHeading }}</a>
   </p>
 
-  <button type="button" @click="store.increment">
+  <button type="button" @click="increment">
     count is: {{ count }}
   </button>
   <p class="mb-5">

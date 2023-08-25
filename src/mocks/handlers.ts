@@ -1,5 +1,6 @@
 // src/mocks/handlers.js
 import { rest } from 'msw'
+
 export const handlers = [
   rest.get('/', (req, res, ctx) => {
     // Persist user's authentication in the session

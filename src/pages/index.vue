@@ -1,8 +1,11 @@
 <script setup lang="ts">
+import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+
 const router = useRouter()
 const name = ref('')
 
-const go = () => {
+function go() {
   if (name.value)
     router.push(`/users/${encodeURIComponent(name.value)}`)
 }

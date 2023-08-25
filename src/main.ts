@@ -6,7 +6,8 @@ import routes from '~pages'
 
 import './index.css'
 
-const boot = async () => {
+async function boot() {
+  // eslint-disable-next-line n/prefer-global/process
   if (process.env.NODE_ENV === 'development') {
     const { worker } = await import('./mocks/browser')
     await worker.start()
